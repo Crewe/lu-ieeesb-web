@@ -1,0 +1,9 @@
+Thank You for Signing Up for a Google Maps API Key!
+
+Your key is:
+
+ABQIAAAAZ-rRbrWnoMBHegW8Dz-nKxTxn_Fg9jyUtkpj-h8En0uejmf8RhTvf4KlGvrNzvInB9vKpT3VsX6IWA
+
+This key is good for all URLs consisting of this registered domain (and directory if applicable):
+
+http://ieee.lakeheadu.ca/candid/

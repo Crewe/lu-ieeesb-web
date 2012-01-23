@@ -1,0 +1,55 @@
+html, body, iframe {
+	margin: 0;
+	padding: 0;
+}
+
+iframe {
+	overflow: visible;
+}
+
+#frame-title, #frame-menu {
+	border-width: thin;
+	width: 100%;
+}
+
+#frame-title {
+	border-style: none none solid none;
+	height: 140pt;
+}
+
+#frame-menu {
+	border-style: solid none none none;
+	height: 24pt;
+}
+
+#frame-twitter {
+	float: left;
+	width: 250px;
+	height: 600px;
+	margin: 0 20px 20px 0;
+}
+
+#frame-gcal {
+	float: right;
+	width: 250px;
+	height: 250px;
+	margin: 0 0 20px 20px;
+}
+
+#div-maintext {
+	text-align: justify;
+	width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+	text-align: left;
+}
+
+h3, h4, h5, h6 {
+	font-style: italic;
+}

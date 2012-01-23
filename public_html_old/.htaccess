@@ -1,0 +1,7 @@
+AddDefaultCharset off
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^ieee\.lakeheadu\.ca
+RewriteCond %{HTTP_HOST} !^$
+RewriteCond %{HTTP_HOST} !^ieee\.lakeheadu\.ca$ [NC]
+RewriteRule (.*) http://ieee.lakeheadu.ca/$1 [L,R=301]

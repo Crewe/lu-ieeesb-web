@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link href="css/ticker-style.css" rel="stylesheet" type="text/css" />
+        <script src="js/jquery-1.7.1.js"></script>
+        <script src="js/galleria/galleria-1.2.5.min.js"></script>
+		<script src="js/jquery.ticker.js" type="text/javascript"></script>
+        <script src="js/custom.js"></script>
+        
+        <title>Contact</title>
+    </head>
+    <body onload="go();">
+        <!-- begin header -->
+        <div id="header">
+            <div class="bar-1">
+            <center>
+            <ul id="js-news" class="js-hidden">
+    <li class="news-item"><a href="#">Lakehead Engineering Competition is close, details to come</a></li>
+    <li class="news-item"><a href="#">Welcome to our new look!</a></li>
+</ul>
+<center>
+                <div class="login">
+                    <!-- <a href="#"><span style="font-size:small;">Login</span></a> -->
+                </div>
+            </div>
+            <div class="bar-2">
+                <div id="title">LU IEEE Student Branch</div>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <!-- <li><a href="#">Events</a></li> -->
+                    <li><a href="members.html">Members</a></li>
+                    <!-- <li><a href="#">Gallery</a></li> -->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                 <div class="search">
+                    <!-- <form type="submit">
+                        <input type="text" id="searchstring" width="150px"/>
+                        <button>Search</button>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- begin body -->
+        <div id="body">
+            <div class="spacer" style="height:10px; display:block;">
+            </div>
+
+            <div id="breadcrumbs">
+                <a href="index.html">Home</a> &raquo; <a href="contact.html">Contact</a>
+            </div>
+            <div class="feature-grid">
+                <div class="content" style="display:block; overflow:hidden;">                
+                	<img src="img/stm32f103.png" />
+                </div>
+            </div>
+            <div class="bar-3">
+                <div id="content">
+                	<h1>
+				Contact Information
+			</h1>
+			
+			<h2>
+				Email
+			</h2>
+
+			<p>
+				<a href="mailto:ieee.lakeheadu.ca">ieee@lakeheadu.ca</a>
+			</p>
+			
+			<h2>
+				Phone
+			</h2>
+			<p>
+				807-343-8888 ext. 8692
+			</p>
+
+			
+			<h2>
+				Office Location
+			</h2>
+			<p>
+				CB3042
+			</p>
+			<p>
+				At the very end of the 3rd floor hall in the
+				Centennial Building on the Lakehead University campus.
+			</p>
+			<h2>
+
+			  Office Hours
+			</h2>
+			<p>
+			 Mon-Fri 10am-6pm
+			</p>
+			
+			<h2>
+				Address
+			</h2>
+			<p>
+				Lakehead University IEEE Student Branch <br/>
+
+				955 Oliver Road <br/>
+				Thunder Bay, ON P7B 5E1
+			</p>
+		</div>
+
+                </div>
+
+                <!-- begin footer -->
+                <div id="footer">
+                    <div class="footer-block">
+                        <h1>Affiliates</h1> 
+                        <p>
+                            &rarr;IEEE Winnipeg Chapter<br/>
+                            &rarr;<br/>
+                            &rarr;<br/>
+                        </p>
+                    </div>
+                    <div class="footer-block">
+                        <h1>Find Us On</h1> 
+                        <p>
+                            &rarr;Facebook<br/>
+                            &rarr;Twitter<br/>
+                        </p>
+                    </div>
+                    <div class="footer-block">
+                        <h1>Site Map</h1> 
+                        <p>
+                            &#43;Home<br/>
+                            &#43;Members<br/>
+                            &#43;Contact<br/>
+                        </p>
+                    </div> 
+                    <div id="copyright">&copy;Lakehead University IEEE Student Branch</div>
+                </div>
+            </div>
+            <script>
+                $("#highlights").click(function() { test1(); });
+            </script>
+            <script type="text/javascript">
+    		$(function () {
+        		$('#js-news').ticker({
+        			debugMode: false,
+        			controls: false,
+        			displayType: 'fade',
+        			titleText: "What's New",
+        			pauseOnItems: 2500
+        		});
+    		});
+</script>
+        </body>
+    </html>
