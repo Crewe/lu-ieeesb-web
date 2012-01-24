@@ -101,6 +101,9 @@ button {
     border-bottom:1px solid #0c0c0c;
 }
 
+#footer a:link { color: #000000; }
+#footer a:visited {color: #6c6c6c;}
+
 #footer h1 {
     margin:5px 5px 5px 0;
     color:#aeaeae;
@@ -198,6 +201,8 @@ button {
     display:block;
     vertical-align:top;
     text-align:justify;
+    box-shadow:2px 2px 2px #333;
+    -webkit-box-shadow:2px 2px 2px #333;
 }
 
 #content {
@@ -310,6 +315,8 @@ button {
     float:left;
     overflow:hidden;
     position:absolute;
+    box-shadow:2px 2px 2px #333;
+    -webkit-box-shadow:2px 2px 2px #333;
 }
 
 .block-a h2 { margin:5px; }
@@ -331,6 +338,8 @@ button {
     display:inline-block;
     position:absolute;
     overflow:hidden;
+    box-shadow:2px 2px 2px #333;
+    -webkit-box-shadow:2px 2px 2px #333;
 }
 
 .block-b h2 { margin:5px; }
@@ -352,7 +361,9 @@ button {
     display:inline-block;
     position:absolute;
     float:right;
-    overflow:hidden;
+    overflow:hidden;    
+    box-shadow:2px 2px 2px #333;
+    -webkit-box-shadow:2px 2px 2px #333;
 }
 
 .block-c h2 { margin:5px; }
