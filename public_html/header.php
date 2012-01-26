@@ -13,17 +13,17 @@
     <body onload="go();">
         <!-- begin header -->
         <div id="header">
-            <div class="bar-1">
-            <center>
-            	<ul id="js-news" class="js-hidden">
-    				<li class="news-item"><a href="#">Lakehead Engineering Competition is close, details to come</a></li>
-    				<li class="news-item"><a href="#">Welcome to our new look!</a></li>
-				</ul>
-			<center>
-            <div class="login">
-                <!-- <a href="#"><span style="font-size:small;">Login</span></a> -->
-            </div>
-        </div>
+			<div class="bar-1">
+				<div style="width:820px;margin: 0px auto;">
+					<ul id="js-news" class="js-hidden">
+						<li class="news-item"><a href="#">Lakehead Engineering Competition is close, details to come</a></li>
+						<li class="news-item"><a href="#">Welcome to our new look!</a></li>
+					</ul>
+				</div>
+				<div class="login">
+					<!-- <a href="#"><span style="font-size:small;">Login</span></a> -->
+				</div>
+			</div>
         <div class="bar-2">
             <div id="title">LU IEEE Student Branch</div>
             <ul id="menu">
@@ -34,10 +34,12 @@
                 <li><a href="contact.php">Contact</a></li>
             </ul>
             <div class="search">
-                    <!-- <form type="submit">
-                        <input type="text" id="searchstring" width="150px"/>
-                        <button>Search</button>
-                    </form> -->
+				<!-- 
+				<form type="submit">
+					<input type="text" id="searchstring" width="150px"/>
+					<button>Search</button>
+				</form> 
+				-->
             </div>
         </div>
     </div>

@@ -5,12 +5,12 @@
         <div class="spacer" style="height:10px; display:block;"></div>
 
         <div id="breadcrumbs">
-            <a href="index.html">Home</a> &raquo; <a href="contact.html">Contact</a>
+            <a href="index.php">Home</a> &raquo; <a href="contact.php">Contact</a>
         </div>
             
         <div class="feature-grid">
             <div class="content" style="display:block; overflow:hidden;">                
-                <img src="img/stm32f103.png" />
+                <img src="img/stm32f103.png" alt="A ciruit board" />
             </div>
         </div>
         <div class="bar-3">

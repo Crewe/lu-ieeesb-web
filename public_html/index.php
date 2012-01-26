@@ -3,8 +3,7 @@
         <!-- begin body -->
         <div id="body">
             <div id="highlights">
-                <img src="img/luieee-main.png" width="780px" height="230px" />
-                <!-- <img src="img/apartments.jpg" width="780px" height="230px" alt="Oh, so very pretty."/> -->
+                <img src="img/luieee-main.png" width="780" height="230" alt="Welcome to The LU IEEE Student Branch" />
                 <div id="hl-caption">
                     LU IEEE Student Branch
                 </div>
@@ -70,7 +69,6 @@
 			<p>
 				We, the members of the IEEE, in recognition of the importance of our technologies in affecting the quality of life throughout the world, and in accepting a personal obligation to our profession, its members and the communities we serve, do hereby commit ourselves to the highest ethical and professional conduct and agree:
 			</p>
-			<p>
 			<ol>
 				<li>
 					to accept responsibility in making engineering decisions consistent with the safety, health and welfare of the public, and to disclose promptly factors that might endanger the public or the environment;
@@ -104,7 +102,6 @@
 					to assist colleagues and co-workers in their professional development and to support them in following this code of ethics.
 				</li>
 			</ol>
-			</p>
 			<p>
 				(Approved by the IEEE Board of Directors, February 2006)
 			</p>
