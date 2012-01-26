@@ -13,14 +13,15 @@
                         <p>
                             &rarr;Facebook<br/>
                             &rarr;<a href="https://twitter.com/ieeeclubhouse" target="_blank">Twitter</a><br/>
+                            &rarr;<a href="http://ieeeclubhouse.tumblr.com/" target="_blank">Tumblr</a><br/>
                         </p>
                     </div>
                     <div class="footer-block">
                         <h1>Site Map</h1> 
                         <p>
-                            &#43;<a href="index.html">Home</a><br/>
-                            &#43;<a href="members.html">Members</a><br/>
-                            &#43;<a href="contact.html">Contact</a><br/>
+                            &#43;<a href="index.php">Home</a><br/>
+                            &#43;<a href="members.php">Members</a><br/>
+                            &#43;<a href="contact.php">Contact</a><br/>
                         </p>
                     </div> 
                     <div id="copyright">&copy;Lakehead University IEEE Student Branch</div>
